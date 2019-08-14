@@ -10,6 +10,7 @@ class AboutMe:
 
     phone_number: str
     email_address: str
+    image_url: str
     
     @property
     def name(self):
@@ -37,7 +38,8 @@ subject = AboutMe(
     first_name="Aaron", last_name="Rogers",
     street_address="820 Bennett Ave", city_state="Colorado Springs, CO 80909",
     email_address="aaron.kyle.rogers@gmail.com",
-    phone_number="(719) 452-0578"
+    phone_number="(719) 452-0578",
+    image_url="https://avatars3.githubusercontent.com/u/18083609?s=144&v=4",
 )
 
 
